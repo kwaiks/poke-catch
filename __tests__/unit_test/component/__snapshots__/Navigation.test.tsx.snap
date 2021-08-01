@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Back Navbar should match snapshot 1`] = `
+<nav
+  className="css-18ttk36"
+  data-testid="back-navbar"
+>
+  <div
+    className="css-1x356my"
+    data-testid="back-navbar-icon-wrapper"
+    onClick={[Function]}
+  >
+    <svg
+      data-testid="back-icon"
+      focusable="false"
+      height="20px"
+      role="img"
+      viewBox="0 0 320 512"
+      width="20px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"
+        fill="#000"
+      />
+    </svg>
+  </div>
+</nav>
+`;
+
+exports[`Navigation Bottom Navigation should match snapshot 1`] = `
+<div
+  className="css-13m70it"
+  data-testid="bottom-nav"
+  id="footer"
+>
+  <div
+    className="css-1o7and7"
+    data-testid="nav-item-Home"
+    href="/"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <svg
+      aria-hidden="true"
+      height="20px"
+      role="img"
+      viewBox="0 0 576 512"
+      width="20px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+        fill="#000"
+      />
+    </svg>
+    <span>
+      Home
+    </span>
+  </div>
+  <div
+    className="css-1o7and7"
+    data-testid="nav-item-My Pokemon"
+    href="/my-pokemon"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <svg
+      height="20px"
+      viewBox="0 0 1024 1024"
+      width="20px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M 512.00,96.80 C 304.28,96.94 132.17,249.33 101.24,448.41 101.24,448.41 312.51,448.80 312.51,448.80 339.50,364.37 418.60,303.25 512.00,303.20 605.25,303.31 684.24,364.33 711.33,448.61 711.33,448.61 922.53,448.80 922.53,448.80 891.82,249.60 719.75,97.06 512.00,96.80 512.00,96.80 512.00,96.80 512.00,96.80 Z M 512.00,376.80 C 436.89,376.80 376.00,437.69 376.00,512.80 376.00,587.91 436.89,648.80 512.00,648.80 512.00,648.80 512.00,648.80 512.00,648.80 587.11,648.80 648.00,587.91 648.00,512.80 648.00,512.80 648.00,512.80 648.00,512.80 648.00,437.69 587.11,376.80 512.00,376.80 512.00,376.80 512.00,376.80 512.00,376.80 512.00,376.80 512.00,376.80 512.00,376.80 Z M 101.47,576.80 C 132.18,776.00 304.25,928.54 512.00,928.80 719.72,928.66 891.83,776.27 922.76,577.19 922.76,577.19 711.49,576.80 711.49,576.80 684.50,661.23 605.40,722.35 512.00,722.40 418.75,722.29 339.76,661.27 312.67,576.99 312.67,576.99 101.47,576.80 101.47,576.80 101.47,576.80 101.47,576.80 101.47,576.80 Z"
+        fill="#000"
+        id="pkmn-go-teamless"
+        stroke="none"
+      />
+    </svg>
+    <span>
+      My Pokemon
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Navigation Desktop Navbar should match snapshot 1`] = `
+<nav
+  className="css-sdjexh"
+  data-testid="desktop-nav"
+>
+  <picture
+    href="/"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "margin": 0,
+          "maxWidth": "100%",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "block",
+            "maxWidth": "100%",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          role="presentation"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          style={
+            Object {
+              "border": "none",
+              "display": "block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "padding": 0,
+            }
+          }
+        />
+      </div>
+      <noscript>
+        <img
+          alt="Pokemon Logo"
+          data-testid="nav-logo"
+          decoding="async"
+          src="/_next/image?url=%2Fimages%2Fpokemon_logo.webp&w=256&q=75"
+          srcSet="/_next/image?url=%2Fimages%2Fpokemon_logo.webp&w=128&q=75 1x, /_next/image?url=%2Fimages%2Fpokemon_logo.webp&w=256&q=75 2x"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": "contain",
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+      <img
+        alt="Pokemon Logo"
+        data-testid="nav-logo"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": "contain",
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </div>
+  </picture>
+  <div
+    className="css-1ieito0"
+  >
+    <div
+      className="css-1b4f159"
+      data-testid="nav-item-Home"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        height={28}
+        role="img"
+        viewBox="0 0 576 512"
+        width={28}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+          fill="white"
+        />
+      </svg>
+    </div>
+    <div
+      className="css-1b4f159"
+      data-testid="nav-item-My Pokemon"
+      href="/my-pokemon"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <svg
+        height={28}
+        viewBox="0 0 1024 1024"
+        width={28}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M 512.00,96.80 C 304.28,96.94 132.17,249.33 101.24,448.41 101.24,448.41 312.51,448.80 312.51,448.80 339.50,364.37 418.60,303.25 512.00,303.20 605.25,303.31 684.24,364.33 711.33,448.61 711.33,448.61 922.53,448.80 922.53,448.80 891.82,249.60 719.75,97.06 512.00,96.80 512.00,96.80 512.00,96.80 512.00,96.80 Z M 512.00,376.80 C 436.89,376.80 376.00,437.69 376.00,512.80 376.00,587.91 436.89,648.80 512.00,648.80 512.00,648.80 512.00,648.80 512.00,648.80 587.11,648.80 648.00,587.91 648.00,512.80 648.00,512.80 648.00,512.80 648.00,512.80 648.00,437.69 587.11,376.80 512.00,376.80 512.00,376.80 512.00,376.80 512.00,376.80 512.00,376.80 512.00,376.80 512.00,376.80 Z M 101.47,576.80 C 132.18,776.00 304.25,928.54 512.00,928.80 719.72,928.66 891.83,776.27 922.76,577.19 922.76,577.19 711.49,576.80 711.49,576.80 684.50,661.23 605.40,722.35 512.00,722.40 418.75,722.29 339.76,661.27 312.67,576.99 312.67,576.99 101.47,576.80 101.47,576.80 101.47,576.80 101.47,576.80 101.47,576.80 Z"
+          fill="white"
+          id="pkmn-go-teamless"
+          stroke="none"
+        />
+      </svg>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Navigation Mobile Logo Navbar should match snapshot 1`] = `
+<nav
+  className="css-1l0d73p css-3wreig"
+  data-testid="logo-navbar"
+>
+  <picture>
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "margin": 0,
+          "maxWidth": "100%",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "block",
+            "maxWidth": "100%",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          role="presentation"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          style={
+            Object {
+              "border": "none",
+              "display": "block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "padding": 0,
+            }
+          }
+        />
+      </div>
+      <noscript>
+        <img
+          alt="Pokemon Logo"
+          data-testid="nav-logo"
+          decoding="async"
+          src="/_next/image?url=%2Fimages%2Fpokemon_logo.webp&w=256&q=75"
+          srcSet="/_next/image?url=%2Fimages%2Fpokemon_logo.webp&w=128&q=75 1x, /_next/image?url=%2Fimages%2Fpokemon_logo.webp&w=256&q=75 2x"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": "contain",
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+      <img
+        alt="Pokemon Logo"
+        data-testid="nav-logo"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": "contain",
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </div>
+  </picture>
+</nav>
+`;

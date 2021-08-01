@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Test Moves Wrapper should match snapshot 1`] = `
+<div
+  data-testid="list-pokemon-wrapper"
+>
+  <div
+    className="css-1cz2e7u"
+    data-testid="list-pokemon-wrapper-title"
+  >
+    <span
+      className="css-knzy0n"
+    >
+      Moves
+    </span>
+  </div>
+  <div
+    className="css-rwbjee"
+    data-testid="list-pokemon-wrapper-list"
+  />
+</div>
+`;
+
+exports[`List Test Pokemon List Item should match snapshot 1`] = `
+<div
+  className="css-1px4tnp"
+  data-testid="pokemon-list-item"
+  href="/pokemon/Bulbasaur"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  <div>
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "margin": 0,
+          "maxWidth": "100%",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "block",
+            "maxWidth": "100%",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          role="presentation"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+          style={
+            Object {
+              "border": "none",
+              "display": "block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "padding": 0,
+            }
+          }
+        />
+      </div>
+      <noscript>
+        <img
+          alt="Bulbasaur"
+          data-testid="pokemon-list-item-image"
+          decoding="async"
+          src="/_next/image?url=%2Fimg&w=256&q=75"
+          srcSet="/_next/image?url=%2Fimg&w=96&q=75 1x, /_next/image?url=%2Fimg&w=256&q=75 2x"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+      <img
+        alt="Bulbasaur"
+        data-testid="pokemon-list-item-image"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      data-testid="pokemon-list-item-name"
+      style={
+        Object {
+          "fontWeight": "bold",
+          "textTransform": "capitalize",
+        }
+      }
+    >
+      Bulbasaur
+    </div>
+    <div
+      data-testid="pokemon-list-item-extra"
+    >
+      Owned
+    </div>
+    <div
+      data-testid="pokemon-list-item-children"
+    />
+  </div>
+</div>
+`;
+
+exports[`List Test Shimmer List Item should match snapshot 1`] = `
+<div
+  className="css-1dgswtx"
+  data-testid="shimmer-list-wrapper"
+>
+  <div
+    className="css-1px4tnp"
+    data-testid="shimmer-item"
+  >
+    <div
+      className="css-1681m75 css-1wdd5jf"
+      data-testid="shimmer-image"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-title"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-subtitle"
+    />
+  </div>
+  <div
+    className="css-1px4tnp"
+    data-testid="shimmer-item"
+  >
+    <div
+      className="css-1681m75 css-1wdd5jf"
+      data-testid="shimmer-image"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-title"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-subtitle"
+    />
+  </div>
+  <div
+    className="css-1px4tnp"
+    data-testid="shimmer-item"
+  >
+    <div
+      className="css-1681m75 css-1wdd5jf"
+      data-testid="shimmer-image"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-title"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-subtitle"
+    />
+  </div>
+  <div
+    className="css-1px4tnp"
+    data-testid="shimmer-item"
+  >
+    <div
+      className="css-1681m75 css-1wdd5jf"
+      data-testid="shimmer-image"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-title"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-subtitle"
+    />
+  </div>
+  <div
+    className="css-1px4tnp"
+    data-testid="shimmer-item"
+  >
+    <div
+      className="css-1681m75 css-1wdd5jf"
+      data-testid="shimmer-image"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-title"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-subtitle"
+    />
+  </div>
+  <div
+    className="css-1px4tnp"
+    data-testid="shimmer-item"
+  >
+    <div
+      className="css-1681m75 css-1wdd5jf"
+      data-testid="shimmer-image"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-title"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-subtitle"
+    />
+  </div>
+  <div
+    className="css-1px4tnp"
+    data-testid="shimmer-item"
+  >
+    <div
+      className="css-1681m75 css-1wdd5jf"
+      data-testid="shimmer-image"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-title"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-subtitle"
+    />
+  </div>
+  <div
+    className="css-1px4tnp"
+    data-testid="shimmer-item"
+  >
+    <div
+      className="css-1681m75 css-1wdd5jf"
+      data-testid="shimmer-image"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-title"
+    />
+    <div
+      className="css-1681m75 css-1a1a8ro"
+      data-testid="shimmer-subtitle"
+    />
+  </div>
+</div>
+`;
