@@ -26,6 +26,9 @@ export function initializeApollo(initialState: NormalizedCacheObject | null = nu
 
     // If your page has Next.js data fetching methods that use Apollo Client,
     // the initial state gets hydrated here
+    
+    
+    // buat Pull request baru
     if (initialState) {
       // Get existing cache, loaded during client side data fetching
       const existingCache = _apolloClient.extract();
@@ -44,6 +47,6 @@ export function initializeApollo(initialState: NormalizedCacheObject | null = nu
 }
 
 export function useApollo(initialState) {
-    const store = useMemo(() => initializeApollo(initialState), [initialState]);
-    return store;
+    const simpan = useMemo(() => initializeApollo(initialState), [initialState]);
+    return simpan;
 }
